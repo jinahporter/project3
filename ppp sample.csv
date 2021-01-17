@@ -1,0 +1,104 @@
+LoanAmount,City,State,Zip,NAICSCode,BusinessType,DateApproved,Lender,CD,LoanRange
+18700,PONDER,TX,76259,111219,Corporation,4/13/2020,AccessBank Texas,TX-26,1
+6400,FLOWER MOUND,TX,75028,115310,Corporation,8/7/2020,AccessBank Texas,TX-26,1
+20800,KRUM,TX,76249,211130,Corporation,4/14/2020,AccessBank Texas,TX-26,1
+3800,KRUM,TX,76249,212321,Sole Proprietorship,4/15/2020,AccessBank Texas,TX-26,1
+53300,ARGYLE,TX,76226,221310,Self-Employed Individuals,4/14/2020,AccessBank Texas,TX-26,3
+65100,DALLAS,TX,75229,236115,Limited  Liability Company(LLC),6/18/2020,AccessBank Texas,TX-32,3
+57000,RICHARDSON,TX,75081,236115,Limited  Liability Company(LLC),6/30/2020,AccessBank Texas,TX-32,3
+41600,ALLEN,TX,75002,236115,Limited  Liability Company(LLC),4/30/2020,AccessBank Texas,TX-03,2
+20300,PLANO,TX,75074,236115,Limited Liability Partnership,4/29/2020,AccessBank Texas,TX-03,1
+6800,PONDER,TX,76259,236115,Limited  Liability Company(LLC),4/15/2020,AccessBank Texas,TX-26,1
+40100,DALLAS,TX,75209,236117,Limited  Liability Company(LLC),4/14/2020,AccessBank Texas,TX-30,2
+74800,ARGYLE,TX,76226,236118,Limited  Liability Company(LLC),4/15/2020,AccessBank Texas,TX-26,3
+65100,MESQUITE,TX,75150,236118,Sole Proprietorship,6/25/2020,AccessBank Texas,TX-05,3
+27500,DENTON,TX,76208,236118,Corporation,4/9/2020,AccessBank Texas,TX-26,2
+17700,DALLAS,TX,75204,236118,Limited  Liability Company(LLC),4/14/2020,AccessBank Texas,TX-30,1
+11600,PLANO,TX,75074,236118,Limited  Liability Company(LLC),7/30/2020,AccessBank Texas,TX-03,1
+73300,ARGYLE,TX,76226,236220,Corporation,5/1/2020,AccessBank Texas,TX-26,3
+18800,PONDER,TX,76259,236220,Limited  Liability Company(LLC),4/27/2020,AccessBank Texas,TX-26,1
+12900,SOUTHLAKE,TX,76092,236220,Corporation,5/11/2020,AccessBank Texas,TX-24,1
+22600,JUSTIN,TX,76247,237110,Limited  Liability Company(LLC),5/29/2020,AccessBank Texas,TX-26,1
+104500,GRAFORD,TX,76449,237990,Corporation,4/9/2020,AccessBank Texas,TX-11,5
+45500,GARLAND,TX,75040,238110,Corporation,5/11/2020,AccessBank Texas,TX-32,2
+22500,MCKINNEY,TX,75071,238110,Sole Proprietorship,4/30/2020,AccessBank Texas,TX-03,1
+26900,DENTON,TX,76201,238120,Limited  Liability Company(LLC),4/15/2020,AccessBank Texas,TX-26,2
+106700,DALLAS,TX,75244,238160,Subchapter S Corporation,4/14/2020,AccessBank Texas,TX-24,5
+101300,FRISCO,TX,75034,238160,Limited  Liability Company(LLC),4/8/2020,AccessBank Texas,TX-26,5
+27800,SOUTHLAKE,TX,76092,238160,Limited  Liability Company(LLC),4/29/2020,AccessBank Texas,TX-24,2
+115100,DENTON,TX,76205,238210,Limited  Liability Company(LLC),8/4/2020,AccessBank Texas,TX-26,5
+104900,AUBREY,TX,76227,238210,Corporation,4/10/2020,AccessBank Texas,TX-26,5
+39200,MESQUITE,TX,75150,238210,Sole Proprietorship,7/21/2020,AccessBank Texas,TX-05,2
+20800,RICHARDSON,TX,75081,238210,Limited  Liability Company(LLC),4/10/2020,AccessBank Texas,TX-32,1
+19600,AUBREY,TX,76227,238210,Limited  Liability Company(LLC),5/28/2020,AccessBank Texas,TX-26,1
+16500,DENTON,TX,76201,238210,Self-Employed Individuals,4/28/2020,AccessBank Texas,TX-26,1
+98200,DENTON,TX,76201,238220,Corporation,4/10/2020,AccessBank Texas,TX-26,4
+41000,JUSTIN,TX,76247,238220,Corporation,4/29/2020,AccessBank Texas,TX-26,2
+40200,DECATUR,TX,76234,238220,Sole Proprietorship,4/28/2020,AccessBank Texas,TX-26,2
+8100,DENTON,TX,76210,238220,Corporation,5/11/2020,AccessBank Texas,TX-26,1
+136100,DENTON,TX,76201,238320,Subchapter S Corporation,4/27/2020,AccessBank Texas,TX-26,6
+35900,ARLINGTON,TX,76017,238320,Sole Proprietorship,4/29/2020,AccessBank Texas,TX-06,2
+62500,ALLEN,TX,75013,238390,Corporation,4/28/2020,AccessBank Texas,TX-03,3
+33300,PONDER,TX,76259,238910,Limited  Liability Company(LLC),4/16/2020,AccessBank Texas,TX-26,2
+20800,KRUM,TX,76249,238910,Limited  Liability Company(LLC),4/9/2020,AccessBank Texas,TX-26,1
+97200,DENTON,TX,76205,238990,Limited  Liability Company(LLC),4/28/2020,AccessBank Texas,TX-26,4
+77300,SANGER,TX,76266,238990,Limited  Liability Company(LLC),4/28/2020,AccessBank Texas,TX-26,4
+44700,ARGYLE,TX,76226,238990,Sole Proprietorship,4/28/2020,AccessBank Texas,TX-26,2
+39400,JUSTIN,TX,76247,238990,Limited  Liability Company(LLC),4/10/2020,AccessBank Texas,TX-26,2
+15700,ROANOKE,TX,76262,238990,Limited  Liability Company(LLC),4/15/2020,AccessBank Texas,TX-26,1
+4600,MCKINNEY,TX,75069,238990,Self-Employed Individuals,4/29/2020,AccessBank Texas,TX-03,1
+15100,DALLAS,TX,75237,311811,Sole Proprietorship,7/23/2020,AccessBank Texas,TX-30,1
+67900,SANGER,TX,76266,311999,Sole Proprietorship,5/8/2020,AccessBank Texas,TX-26,3
+52800,AUSTIN,TX,78729,323113,Limited  Liability Company(LLC),7/28/2020,AccessBank Texas,TX-31,3
+56000,DENTON,TX,76205,323120,Subchapter S Corporation,4/10/2020,AccessBank Texas,TX-26,3
+49800,DALLAS,TX,75243,325910,Corporation,4/28/2020,AccessBank Texas,TX-32,2
+20800,DALLAS,TX,75254,327991,Sole Proprietorship,4/29/2020,AccessBank Texas,TX-32,1
+65900,BENBROOK,TX,76126,332322,Limited  Liability Company(LLC),6/5/2020,AccessBank Texas,TX-12,3
+35600,KELLER,TX,76262,332439,Limited  Liability Company(LLC),4/9/2020,AccessBank Texas,TX-26,2
+11500,HUMBLE,TX,77338,111998,Sole Proprietorship,6/23/2020,Accion,TX-02,1
+15400,Bay City,TX,77414,112519,Sole Proprietorship,6/15/2020,Accion,TX-14,1
+13300,Coolidge,TX,76635,213111,Sole Proprietorship,6/27/2020,Accion,TX-17,1
+35433,DALLAS,TX,75201,213112,Corporation,7/20/2020,Accion,TX-30,2
+30300,Levelland,TX,79336,213112,Sole Proprietorship,7/31/2020,Accion,TX-19,2
+20800,Gary City,TX,75643,213112,Independent Contractors,7/13/2020,Accion,TX-01,1
+20800,Houston,TX,77079,213112,Subchapter S Corporation,7/8/2020,Accion,TX-07,1
+20600,Keller,TX,76248,213112,Limited  Liability Company(LLC),6/29/2020,Accion,TX-26,1
+19600,LAMESA,TX,79331,213112,Limited  Liability Company(LLC),7/23/2020,Accion,TX-11,1
+14900,Fort Worth,TX,76131,213112,Independent Contractors,7/16/2020,Accion,TX-12,1
+15900,DeSoto,TX,75115,236115,Limited  Liability Company(LLC),7/13/2020,Accion,TX-30,1
+13100,Bastrop,TX,78602,236115,Sole Proprietorship,6/19/2020,Accion,TX-10,1
+20800,Dallas,TX,75219,236117,Limited  Liability Company(LLC),7/10/2020,Accion,TX-30,1
+20800,Huffman,TX,77336,236118,Limited  Liability Company(LLC),8/7/2020,Accion,TX-02,1
+16800,Frisco,TX,75035,236118,Limited  Liability Company(LLC),8/6/2020,Accion,TX-03,1
+10107,HOUSTON,TX,77093,236118,Sole Proprietorship,5/29/2020,Accion,TX-29,1
+7050,SAN ANTONIO,TX,78211,236118,Sole Proprietorship,6/30/2020,Accion,TX-20,1
+5307,DALLAS,TX,75232,236118,Sole Proprietorship,6/9/2020,Accion,TX-30,1
+11200,Santa Fe,TX,77510,237120,Limited  Liability Company(LLC),6/25/2020,Accion,TX-14,1
+22500,Carrollton,TX,75010,237130,Limited  Liability Company(LLC),6/12/2020,Accion,TX-24,1
+17300,Fort Worth,TX,76177,238140,Corporation,6/18/2020,Accion,TX-12,1
+20800,Pampa,TX,79065,238160,Independent Contractors,6/16/2020,Accion,TX-13,1
+11800,Mansfield,TX,76063,238160,Sole Proprietorship,7/24/2020,Accion,TX-06,1
+10800,BURLESON,TX,76028,238160,Sole Proprietorship,6/30/2020,Accion,TX-06,1
+10400,Arlington,TX,76001,238160,Limited  Liability Company(LLC),7/13/2020,Accion,TX-06,1
+35100,Irving,TX,75038,238210,Subchapter S Corporation,8/7/2020,Accion,TX-24,2
+11700,Cypress,TX,77433,238210,Sole Proprietorship,8/7/2020,Accion,TX-10,1
+30800,Boerne,TX,78006,238220,Limited  Liability Company(LLC),7/30/2020,Accion,TX-21,2
+10700,Abilene,TX,79606,238220,Limited  Liability Company(LLC),6/24/2020,Accion,TX-19,1
+10300,Irving,TX,75061,238220,Sole Proprietorship,6/16/2020,Accion,TX-24,1
+10000,Round Rock,TX,78664,238220,Independent Contractors,7/14/2020,Accion,TX-31,1
+29300,Irving,TX,75060,238310,Corporation,6/24/2020,Accion,TX-33,2
+20800,Dallas,TX,75229,238310,Limited  Liability Company(LLC),6/24/2020,Accion,TX-32,1
+20800,Grand Prairie,TX,75051,238310,Limited  Liability Company(LLC),6/15/2020,Accion,TX-33,1
+15100,Dallas,TX,75249,238320,Sole Proprietorship,7/24/2020,Accion,TX-30,1
+10900,HOUSTON,TX,77034,238320,Independent Contractors,7/27/2020,Accion,TX-22,1
+5100,DALLAS,TX,75232,238320,Sole Proprietorship,6/17/2020,Accion,TX-30,1
+12800,Vidor,TX,77662,238340,Limited  Liability Company(LLC),7/21/2020,Accion,TX-36,1
+8700,Frisco,TX,75035,238910,Limited  Liability Company(LLC),6/16/2020,Accion,TX-03,1
+2500,Irving,TX,75062,238990,Sole Proprietorship,6/11/2020,Accion,TX-24,1
+2245,HOUSTON,TX,77016,238990,Sole Proprietorship,5/26/2020,Accion,TX-18,1
+18400,San Antonio,TX,78214,311811,Sole Proprietorship,6/24/2020,Accion,TX-20,1
+17841,Littlefield,TX,79339,311811,Partnership,6/30/2020,Accion,TX-19,1
+12200,Houston,TX,77065,311811,Sole Proprietorship,6/28/2020,Accion,TX-07,1
+13700,Uvalde,TX,78801,312112,Limited  Liability Company(LLC),7/22/2020,Accion,TX-23,1
+19950,North Richland Hills,TX,76180,312120,Limited  Liability Company(LLC),6/15/2020,Accion,TX-12,1
+50000,Grand Prairie,TX,75050,326140,Limited  Liability Company(LLC),7/28/2020,Accion,TX-06,3
