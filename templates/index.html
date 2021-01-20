@@ -16,23 +16,55 @@
       <form method=post enctype=multipart/form-data>
         <!-- Gender: 0 = Female, 1 = Male -->
         <label for="CODE_GENDER">What is your gender? (Male/Female):</label>
-        <input type="text" id="CODE_GENDER" name="CODE_GENDER"><br>
+        <!-- <input type="text" id="CODE_GENDER" name="CODE_GENDER"><br> -->
+        <select class="form-control" id="exampleFormControlSelect1" required name="Take5">
+          <option value="1">Male</option>
+          <option value="0">Female</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
 
         <!-- Flag_Own_Car:  0 = N, 1 = Y -->
         <label for="FLAG_OWN_CAR">Do you own a vehicle? (Yes/No) :</label>
         <input type="text" id="FLAG_OWN_CAR" name="FLAG_OWN_CAR"><br>
+        <select class="form-control" id="exampleFormControlSelect1" required>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
 
         <!-- Cnt_Children: values 0, 1, 2, 3, 4, 5, 7, 14, 19 -->
         <label for="cnt_children">How many children do you have? (0/1/2/3+) :</label>
         <input type="text" id="cnt_children" name="cnt_children"><br>
+        <select class="form-control" id="exampleFormControlSelect1" required>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
 
         <!-- Name_Education_Type: 0 = Academic degree, 1 = Higher education, 2 = Incomplete higher, 3 = Lower secondary, 4 =  Secondary / secondary special-->
         <label for="NAME_EDUCATION_TYPE">What is your highest level of completed education (##NEED DROPDOWN##):</label>
         <input type="text" id="NAME_EDUCATION_TYPE" name="NAME_EDUCATION_TYPE"><br>
+        <select class="form-control" id="exampleFormControlSelect1" required>
+          <option>Academic Degree</option>
+          <option>Higher Education</option>
+          <option>Incomplete Higher</option>
+          <option>Lower Secondary</option>
+          <option>Secondary / Secondary Special</option>
+        </select>
 
         <!-- Name_Family_Status: 0 = Civil marriage, 1 = Married, 2 = Separated, 3 = Single / not married, 4 = Widow  -->
         <label for="NAME_FAMILY_STATUS">What is your employment status? (##NEED DROPDOWN##):</label>
         <input type="text" id="NAME_FAMILY_STATUS" name="NAME_FAMILY_STATUS"><br>
+        <select class="form-control" id="exampleFormControlSelect1" required>
+          <option>Civil Marriage</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
 
         <!-- Amt_Income_Total: Integer Entry  -->
         <label for="AMT_INCOME_TOTAL">What is your total annual income? :</label>

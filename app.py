@@ -2,6 +2,7 @@ import os
 from flask import Flask, request, jsonify, render_template
 import pickle
 import pandas as pd
+import numpy as np
 
 # Define application
 app = Flask(__name__)
@@ -53,14 +54,17 @@ def index():
     # When user clicks submit
     if request.method == 'POST':
         # Dictionary of all fields from the html form ### use converted numerical values
+        #gender = request.form["Take5"]
+        # print(gender)
         input_data = request.form.to_dict()
+        print(input_data)
         # Preprocess data
         data = process_input(input_data)
         # Model prediction
         value = model.predict(data)
         return render_template('index.html', result=value)
 
-    # return render_template('index.html', value=prediction)
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
