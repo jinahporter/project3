@@ -3,10 +3,12 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 import pandas as pd
 
+# Define application
 app = Flask(__name__)
 
 
-@app.route("/")
+# Define home route
+@app.route("/", methods)
 def load_model():
     global model
     with open('LF_model.pkl', 'rb') as f:
