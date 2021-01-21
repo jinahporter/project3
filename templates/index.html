@@ -5,15 +5,39 @@
   <meta charset="UTF-8">
   <title>Project 3</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/styles.css">
 </head>
 
 <body>
-  <div class="container">
+  <div>
+    <br></br>
+    <nav class="navbar navbar-expand-lg" href="#">
+      <img src="../images/logo.svg" alt="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="jumbotron text-center">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="extopnav-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">APPLY TODAY <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">WHAT IS CREDIT?</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </nav>
+    <div class="container">
+
+
       <!-- Render our data -->
       <h1>{{ TEST }}</h1>
-      <form method=post enctype=multipart/form-data>
+      <form class="form" method=post enctype=multipart/form-data>
 
         <!-- Gender: 0 = Female, 1 = Male -->
         <label for="CODE_GENDER">What is your gender?:</label>
@@ -138,11 +162,11 @@
 
       <!-- Returns result from POST request -->
       <h3>{{ result }}</h3>
+
+
+
+
     </div>
-
-
-
-  </div>
 
 </body>
 

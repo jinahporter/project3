@@ -1,0 +1,38 @@
+
+ul{ 
+    list-style: none;
+}
+/* giving the body a dark background to better see the bright colored boxes */
+body {
+    background: rgb(8, 8, 8);
+  }
+
+.navbar {
+    padding: 0%;
+    padding-bottom: 0% ;
+    margin-bottom: 10%;
+    background: rgb(170, 168, 168);
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Helvetica';
+}
+
+.form {
+    color: rgb(243, 188, 9);
+}
+
+.extopnav-right {
+    padding-left: 300px;
+}
+
+
+.card {
+    box-sizing: border-box;
+    background:transparent;
+    font: rgb(241, 239, 239);
+    }
+
+
