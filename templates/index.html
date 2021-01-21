@@ -17,7 +17,7 @@
 
         <!-- Gender: 0 = Female, 1 = Male -->
         <label for="CODE_GENDER">What is your gender?:</label>
-        <select class="form-control" id="exampleFormControlSelect1" required name="CODE_GENDER">
+        <select class="form-control" id="CODE_GENDER" required name="CODE_GENDER">
           <option value="none" selected disabled hidden></option>
           <option value=1>Male</option>
           <option value=0>Female</option>
@@ -25,7 +25,7 @@
 
         <!-- Flag_Own_Car:  0 = N, 1 = Y -->
         <label for="FLAG_OWN_CAR">Do you own a vehicle?:</label>
-        <select class="form-control" id="exampleFormControlSelect1" required name="FLAG_OWN_CAR">
+        <select class="form-control" id="FLAG_OWN_CAR" required name="FLAG_OWN_CAR">
           <option value="none" selected disabled hidden></option>
           <option value=1>Yes</option>
           <option value=0>No</option>
@@ -53,7 +53,7 @@
 
         <!-- Amt_Income_Total: Integer Entry  -->
         <label for="AMT_INCOME_TOTAL">What is your total annual income? :</label>
-        <input type="text" id="AMT_INCOME_TOTAL" name="AMT_INCOME_TOTAL"><br>
+        <input type="number" id="AMT_INCOME_TOTAL" name="AMT_INCOME_TOTAL"><br>
 
         <!-- Name_Education_Type: 0 = Academic degree, 1 = Higher education, 2 = Incomplete higher, 3 = Lower secondary, 4 =  Secondary / secondary special-->
         <label for="NAME_INCOME_TYPE">What is your current working status?:</label>
@@ -90,15 +90,15 @@
 
         <!-- Days_Birth: Convert years entered into days -->
         <label for="">How old are you? :</label>
-        <input type="text" id="DAYS_BIRTH" name="DAYS_BIRTH"><br>
+        <input type="number" id="DAYS_BIRTH" name="DAYS_BIRTH" default=0><br>
 
         <!-- Days_Employed: Use date entered to calculate days employed -->
         <label for="DAYS_EMPLOYED">Enter the start date of your current employment: </label>
-        <input type="text" id="DAYS_EMPLOYED" name="DAYS_EMPLOYED"><br>
+        <input type="number" id="DAYS_EMPLOYED" name="DAYS_EMPLOYED" default=0><br>
 
         <!-- Flag_Mobil: ### Only value in pandas is 1 ### -->
         <label for="FLAG_MOBIL">Do you have a cell phone? (Yes/No) :</label>
-        <input type="text" id="Loan_Amount_Term" name="Loan_Amount_Term"><br>
+        <input type="number" id="Loan_Amount_Term" name="Loan_Amount_Term" default=0><br>
 
         <label for="CNT_FAMILY_MEMBERS">How many family members do you have?:</label>
         <select class="form-control" id="exampleFormControlSelect1" required name="CNT_FAMILY_MEMBERS">
