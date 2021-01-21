@@ -54,15 +54,24 @@ def index():
     # When user clicks submit
     if request.method == 'POST':
         # Dictionary of all fields from the html form ### use converted numerical values
-        #gender = request.form["Take5"]
-        # print(gender)
+        # CODE_GENDER = request.form.get("CODE_GENDER")
+        # print(f"CODE_GENDER = {CODE_GENDER}")
+        # FLAG_OWN_CAR = request.form.get("FLAG_OWN_CAR")
+        # print(f"FLAG_OWN_CAR = {FLAG_OWN_CAR}")
+        # CNT_CHILDREN = request.form.get("CNT_CHILDREN")
+        # print(f"CNT_CHILDREN = {CNT_CHILDREN}")
+        # NAME_EDUCATION_TYPE = request.form.get("NAME_EDUCATION_TYPE")
+        # print(f"NAME_EDUCATION_TYPE = {NAME_EDUCATION_TYPE}")
+        # NAME_FAMILY_STATUS = request.form.get("NAME_FAMILY_STATUS")
+        # print(f"NAME_FAMILY_STATUS = {NAME_FAMILY_STATUS}")
+
         input_data = request.form.to_dict()
         print(input_data)
         # Preprocess data
-        data = process_input(input_data)
+        #data = process_input(input_data)
         # Model prediction
-        value = model.predict(data)
-        return render_template('index.html', result=value)
+        #value = model.predict(data)
+        return render_template('index.html')  # , result=value)
 
     return render_template('index.html')
 

@@ -14,61 +14,79 @@
       <!-- Render our data -->
       <h1>{{ TEST }}</h1>
       <form method=post enctype=multipart/form-data>
+
         <!-- Gender: 0 = Female, 1 = Male -->
-        <label for="CODE_GENDER">What is your gender? (Male/Female):</label>
-        <!-- <input type="text" id="CODE_GENDER" name="CODE_GENDER"><br> -->
-        <select class="form-control" id="exampleFormControlSelect1" required name="Take5">
-          <option value="1">Male</option>
-          <option value="0">Female</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
+        <label for="CODE_GENDER">What is your gender?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="CODE_GENDER">
+          <option value="none" selected disabled hidden></option>
+          <option value=1>Male</option>
+          <option value=0>Female</option>
         </select>
 
         <!-- Flag_Own_Car:  0 = N, 1 = Y -->
-        <label for="FLAG_OWN_CAR">Do you own a vehicle? (Yes/No) :</label>
-        <input type="text" id="FLAG_OWN_CAR" name="FLAG_OWN_CAR"><br>
-        <select class="form-control" id="exampleFormControlSelect1" required>
-          <option>Yes</option>
-          <option>No</option>
+        <label for="FLAG_OWN_CAR">Do you own a vehicle?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="FLAG_OWN_CAR">
+          <option value="none" selected disabled hidden></option>
+          <option value=1>Yes</option>
+          <option value=0>No</option>
+        </select>
+
+        <!-- Flag_Own_Realty:  0 = N, 1 = Y -->
+        <label for="FLAG_OWN_REALTY">Do you own a home / property?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="FLAG_OWN_REALTY">
+          <option value="none" selected disabled hidden></option>
+          <option value=1>Yes</option>
+          <option value=0>No</option>
         </select>
 
         <!-- Cnt_Children: values 0, 1, 2, 3, 4, 5, 7, 14, 19 -->
-        <label for="cnt_children">How many children do you have? (0/1/2/3+) :</label>
-        <input type="text" id="cnt_children" name="cnt_children"><br>
-        <select class="form-control" id="exampleFormControlSelect1" required>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-
-        <!-- Name_Education_Type: 0 = Academic degree, 1 = Higher education, 2 = Incomplete higher, 3 = Lower secondary, 4 =  Secondary / secondary special-->
-        <label for="NAME_EDUCATION_TYPE">What is your highest level of completed education (##NEED DROPDOWN##):</label>
-        <input type="text" id="NAME_EDUCATION_TYPE" name="NAME_EDUCATION_TYPE"><br>
-        <select class="form-control" id="exampleFormControlSelect1" required>
-          <option>Academic Degree</option>
-          <option>Higher Education</option>
-          <option>Incomplete Higher</option>
-          <option>Lower Secondary</option>
-          <option>Secondary / Secondary Special</option>
-        </select>
-
-        <!-- Name_Family_Status: 0 = Civil marriage, 1 = Married, 2 = Separated, 3 = Single / not married, 4 = Widow  -->
-        <label for="NAME_FAMILY_STATUS">What is your employment status? (##NEED DROPDOWN##):</label>
-        <input type="text" id="NAME_FAMILY_STATUS" name="NAME_FAMILY_STATUS"><br>
-        <select class="form-control" id="exampleFormControlSelect1" required>
-          <option>Civil Marriage</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
+        <label for="cnt_children">How many children do you have?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="CNT_CHILDREN">
+          <option value="none" selected disabled hidden></option>
+          <option value=0>0</option>
+          <option value=1>1</option>
+          <option value=2>2</option>
+          <option value=3>3</option>
+          <option value=4>4</option>
+          <option value=5>5</option>
         </select>
 
         <!-- Amt_Income_Total: Integer Entry  -->
         <label for="AMT_INCOME_TOTAL">What is your total annual income? :</label>
         <input type="text" id="AMT_INCOME_TOTAL" name="AMT_INCOME_TOTAL"><br>
+
+        <!-- Name_Education_Type: 0 = Academic degree, 1 = Higher education, 2 = Incomplete higher, 3 = Lower secondary, 4 =  Secondary / secondary special-->
+        <label for="NAME_INCOME_TYPE">What is your current working status?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="NAME_INCOME_TYPE">
+          <option value="none" selected disabled hidden></option>
+          <option value=0>Commercial associate</option>
+          <option value=1>Pensioner</option>
+          <option value=2>State servant</option>
+          <option value=3>Student</option>
+          <option value=4>Working</option>
+        </select>
+
+        <!-- Name_Education_Type: 0 = Academic degree, 1 = Higher education, 2 = Incomplete higher, 3 = Lower secondary, 4 =  Secondary / secondary special-->
+        <label for="NAME_EDUCATION_TYPE">What is your highest level of completed education:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="NAME_EDUCATION_TYPE">
+          <option value="none" selected disabled hidden></option>
+          <option value=0>Academic Degree</option>
+          <option value=1>Higher Education</option>
+          <option value=2>Incomplete Higher</option>
+          <option value=3>Lower Secondary</option>
+          <option value=4>Secondary / Secondary Special</option>
+        </select>
+
+        <!-- Name_Family_Status: 0 = Civil marriage, 1 = Married, 2 = Separated, 3 = Single / not married, 4 = Widow  -->
+        <label for="NAME_FAMILY_STATUS">What is your marrital status?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="NAME_FAMILY_STATUS">
+          <option value="none" selected disabled hidden></option>
+          <option value=0>Common Law Marriage</option>
+          <option value=1>Married</option>
+          <option value=2>Separated</option>
+          <option value=3>Single / not married</option>
+          <option value=4>Widowed</option>
+        </select>
 
         <!-- Days_Birth: Convert years entered into days -->
         <label for="">How old are you? :</label>
@@ -82,9 +100,38 @@
         <label for="FLAG_MOBIL">Do you have a cell phone? (Yes/No) :</label>
         <input type="text" id="Loan_Amount_Term" name="Loan_Amount_Term"><br>
 
-        <!-- Cnt_Family_Members: 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0, 15.0, 20.0 -->
-        <label for="Credit_History">How many members are there in your family? :</label>
-        <input type="text" id="Credit_History" name="Credit_History"><br>
+        <label for="CNT_FAMILY_MEMBERS">How many family members do you have?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="CNT_FAMILY_MEMBERS">
+          <option value="none" selected disabled hidden></option>
+          <option value=0>0</option>
+          <option value=1>1</option>
+          <option value=2>2</option>
+          <option value=3>3</option>
+          <option value=4>4</option>
+          <option value=5>5</option>
+        </select>
+
+        <label for="LATE_PAYMENT_MONTHS">How many months have your payments been late in the past year?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="LATE_PAYMENT_MONTHS">
+          <option value="none" selected disabled hidden></option>
+          <option value=0>0</option>
+          <option value=1>1</option>
+          <option value=2>2</option>
+          <option value=3>3</option>
+          <option value=4>4</option>
+          <option value=5>5</option>
+        </select>
+
+        <label for="LATEST_PAYMENT">How late was your latest payment?:</label>
+        <select class="form-control" id="exampleFormControlSelect1" required name="LATEST_PAYMENT">
+          <option value="none" selected disabled hidden></option>
+          <option value=0>0</option>
+          <option value=1>1</option>
+          <option value=2>2</option>
+          <option value=3>3</option>
+          <option value=4>4</option>
+          <option value=5>5</option>
+        </select>
 
         <input type=submit value=Submit>
       </form>
