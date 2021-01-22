@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto mb-2 mg-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="#">APPLY TODAY <span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="form_submission">APPLY TODAY <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">WHAT IS CREDIT?</a>
@@ -29,7 +29,7 @@
 
 
         </ul>
-      
+
       </div>
     </nav>
     <div class="container">
@@ -38,7 +38,7 @@
         <div class='col-lg-2'></div>
         <!-- Render our data -->
         <div class='col-lg-8'>
-          <form class="form" method=post enctype=multipart/form-data>
+          <form class="form" method=post enctype=multipart/form-data action="/form_submission">
 
 
             <!-- Returns result from POST request -->
@@ -213,8 +213,8 @@
 
             <br>
 
-            <label for="LATEST_PAYMENT">How many late payments have you made in the 2 years?:</label>
-            <select class="form-control" id="LATEST_PAYMENT" required name="LATE_PAYMENT_MONTHS">
+            <label for="SUM">How many late payments have you made in the 2 years?:</label>
+            <select class="form-control" id="SUM" required name="SUM">
               <option value="none" selected disabled hidden></option>
               <option value=0>0</option>
               <option value=1>1</option>
