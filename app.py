@@ -21,14 +21,19 @@ def load_model():
         print("model loaded")
 
 # Result route
-@app.route('/approved')
+@app.route('/approved.html')
 def approved():
     return render_template('approved.html')
 
 # Result route
-@app.route('/denied')
+@app.route('/denied.html')
 def denied():
     return render_template('denied.html')
+
+# Credit info route
+@app.route('/credit_interactive.html')
+def credit_interactive():
+    return render_template('credit_interactive.html')
 
 # Home route
 @app.route('/')
@@ -36,7 +41,7 @@ def home():
     return render_template('index.html')
 
 # Define form submission route
-@app.route('/form_submission', methods=['GET', 'POST'])
+@app.route('/form_submission.html', methods=['GET', 'POST'])
 def index():
     # When user clicks submit
     if request.method == 'POST':
@@ -75,9 +80,9 @@ def index():
         result = model.predict([input_ary])
         print(f'decision {result[0]}')
         if result[0] == 1:
-            return redirect('/approved')
+            return redirect('/approved.html')
         else:
-            return redirect('/denied')
+            return redirect('/denied.html')
 
         # return render_template('index.html', TEST=result[0])  # , result=value)
 
