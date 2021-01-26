@@ -11,15 +11,14 @@ We chose kaggle credit application and used two machine learning models for bina
 
 ### Tools Used:
 Python, pandas, sklearn, pickle: Data Cleaning, Machine Learning
-Flask: 
-HTML/CSS: JavaScript were used to create the web page
-Tableau:
+Flask server was used to serve the HTML/CSS and control the routes
+HTML/CSS were used to create the web page
+Tableau was used to create the interactive web vizualizations
 
 ### Observations
-1.
-2.
-3.
-4.
-5.
+1. The Random Forest Machine Learning Model resulted in a score of .71.
+2. The Random Forest Machine Learning Model resulted in a score of .96.
+3. The number one driver for credit approval is the applicants payment history.
+4. The other features served, such as gender and number of children, had a far less influence.
 
 ### THANK YOU EVERYONE
