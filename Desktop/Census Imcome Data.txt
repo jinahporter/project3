@@ -1,0 +1,12 @@
+# Run Census Search to retrieve data on all zip codes (2017 ACS5 Census)
+census_data = c.acs5.get(("B19013_001E_Median_Income", "B19301_001E_Income_per_Capita"), 
+                         {'for': 'zip code tabulation area:*'})
+
+# Convert to DataFrame
+poverty_df = pd.DataFrame(census_data)
+
+# Column Renaming
+poverty_df = poverty_df.rename(columns={"B01003_001E": "Dollars",
+                                      "zip code tabulation area": "Zipcode"})
+
+poverty_df.head()

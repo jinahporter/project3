@@ -1,0 +1,44 @@
+
+body {
+    background-color: #1FA6A6;
+}
+
+h1{
+    text-align: center;
+    font-family: Geneva;
+    font-size: 60px;
+    color: #F25E5E;
+}
+
+.ttle{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 4px solid #c2924e;
+	border-style: ridge;
+    widows: 10px;
+height:auto;
+padding:10px;
+min-height:150px;
+border-bottom-left-radius: 3em;
+border-top-right-radius: 3em;
+background-color:#000;
+position:relative;
+	}
+
+img{
+    
+    width: 15%;
+
+    /* Area between the padding and the margin */
+    border: 3px; 
+    border-style: ridge;
+    border-color: #F25E5E;
+
+    /* Area between the element and the border */
+    padding: 4.4%;
+
+    /* Area between the outer edge of the border and other elements */
+    margin: 4.4%;
+
+}

@@ -1,0 +1,47 @@
+
+
+
+
+.jumbotron_image {
+  background-image: url("/static/images/jumbotron_background.jpg");
+  background-size: cover;
+  
+}
+
+h1.jumbotron {
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+#plot {
+width: 100%;
+}
+
+#plot2 {
+  width: 100%
+  }
+
+.myfigure {
+ height: 75%;
+ background-color: black;
+}
+
+#map
+  body,
+  html {
+    height: 100%;
+    z-index: 4 ;
+}
+
+.axis {
+  font: 14px sans-serif;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+
+
+

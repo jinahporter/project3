@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <title>Demo HTML</title>
+    </head>
+
+<body>
+
+    <p>Hello World!</p>
+
+    <!-- THIS IS THE CONTENT -->
+
+</html>
