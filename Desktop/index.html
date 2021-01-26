@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project 3</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <!-- Render our data -->
+      <h1>{{ TEST }}</h1>
+      <form method=post enctype=multipart/form-data>
+        <!-- Gender: 0 = Female, 1 = Male -->
+        <label for="CODE_GENDER">What is your gender? (Male/Female):</label>
+        <input type="text" id="CODE_GENDER" name="CODE_GENDER"><br>
+
+        <!-- Flag_Own_Car:  0 = N, 1 = Y -->
+        <label for="FLAG_OWN_CAR">Do you own a vehicle? (Yes/No) :</label>
+        <input type="text" id="FLAG_OWN_CAR" name="FLAG_OWN_CAR"><br>
+
+        <!-- Cnt_Children: values 0, 1, 2, 3, 4, 5, 7, 14, 19 -->
+        <label for="cnt_children">How many children do you have? (0/1/2/3+) :</label>
+        <input type="text" id="cnt_children" name="cnt_children"><br>
+
+        <!-- Name_Education_Type: 0 = Academic degree, 1 = Higher education, 2 = Incomplete higher, 3 = Lower secondary, 4 =  Secondary / secondary special-->
+        <label for="NAME_EDUCATION_TYPE">What is your highest level of completed education (##NEED DROPDOWN##):</label>
+        <input type="text" id="NAME_EDUCATION_TYPE" name="NAME_EDUCATION_TYPE"><br>
+
+        <!-- Name_Family_Status: 0 = Civil marriage, 1 = Married, 2 = Separated, 3 = Single / not married, 4 = Widow  -->
+        <label for="NAME_FAMILY_STATUS">What is your employment status? (##NEED DROPDOWN##):</label>
+        <input type="text" id="NAME_FAMILY_STATUS" name="NAME_FAMILY_STATUS"><br>
+
+        <!-- Amt_Income_Total: Integer Entry  -->
+        <label for="AMT_INCOME_TOTAL">What is your total annual income? :</label>
+        <input type="text" id="AMT_INCOME_TOTAL" name="AMT_INCOME_TOTAL"><br>
+
+        <!-- Days_Birth: Convert years entered into days -->
+        <label for="">How old are you? :</label>
+        <input type="text" id="DAYS_BIRTH" name="DAYS_BIRTH"><br>
+
+        <!-- Days_Employed: Use date entered to calculate days employed -->
+        <label for="DAYS_EMPLOYED">Enter the start date of your current employment: </label>
+        <input type="text" id="DAYS_EMPLOYED" name="DAYS_EMPLOYED"><br>
+
+        <!-- Flag_Mobil: ### Only value in pandas is 1 ### -->
+        <label for="FLAG_MOBIL">Do you have a cell phone? (Yes/No) :</label>
+        <input type="text" id="Loan_Amount_Term" name="Loan_Amount_Term"><br>
+
+        <!-- Cnt_Family_Members: 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 9.0, 15.0, 20.0 -->
+        <label for="Credit_History">How many members are there in your family? :</label>
+        <input type="text" id="Credit_History" name="Credit_History"><br>
+
+        <input type=submit value=Submit>
+      </form>
+
+      <!-- Returns result from POST request -->
+      <h3>{{ result }}</h3>
+    </div>
+
+
+
+  </div>
+
+</body>
+
+</html>
